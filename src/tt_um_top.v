@@ -23,7 +23,7 @@ module tt_um_top (
 
  matriz_interactiva U000 (
 	.RST(rst_n), .CLK(clk),
-	.BT_DER(ui_in(0)), .BT_IZQ(ui_in(1)), .BT_ARR(ui_in(2)), .BT_ABA(ui_in(3)),
+	 .BT_DER(ui_in[0]), .BT_IZQ(ui_in[1]), .BT_ARR(ui_in[2]), .BT_ABA(ui_in[3]),
 	
 	 .FIL(uo_out[3:0]), .COL(uo_out[7:4])
 	
